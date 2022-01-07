@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="addcar2.css"/>
+<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="bootstrap.min.css"/>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <i class='fas fa-car-alt' style='font-size:48px;color:red'></i>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    
+    
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="#">ADMIN</a></li>
+          <li><a href="rentallogin.html">Rental Login</a></li>
+        <li><a href="customerlogin.html">Customer Login</a></li>
+         <li><a href="customerregister.html">Customer Registration</a></li>
+       </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<h2>CUTOMER LOGIN</h2>
+<form action="customerlogin.jsp" method="post">
+   
+       <label >email</label>
+       <input type="text"  name="email" id="name1" placeholder="email"/>
+       <br>
+       <label >password</label>
+       <input type="text"  name="password" id="name1" placeholder="email"/>
+       <br>
+
+
+       <button type="submit" class="btn btn-primary">Login</button>
+
+</form>
+
+
+</body>
+</html>

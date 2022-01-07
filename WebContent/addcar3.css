@@ -1,0 +1,52 @@
+form{
+	 
+    width: 60% !important;
+    height: 45%;
+    margin-left: 25%;
+    opacity:0.8;
+    border:skyblue 2px solid;
+    margin-top:3%;
+   
+}
+
+input[type=text] ,input[type=number]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 35%;
+  border: black solid 1px;
+   
+
+}
+input[type=password],input[type=email]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 35%;
+  border: black solid 1px;
+   
+
+}
+ label{
+     margin-left: 35%;
+     color:white;
+ } 
+ 
+ button[type=submit]{
+ margin-left:45%;
+ background-color: green;
+ color:black;
+ }
+ 
+ h2,h1,h3{
+
+ color:orange;
+ margin-top:5%;
+ margin-left:45%
+ 
+ }
+ 
